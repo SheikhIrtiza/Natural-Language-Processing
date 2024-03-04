@@ -23,3 +23,12 @@ Lemmatization is the process of reducing words to their base or dictionary form.
 **Part-of-Speech (POS) Tagging**
 
 POS tagging involves labeling words with their grammatical categories.
+
+**Named Entity Recognition (NER) README**
+
+
+Named Entity Recognition is a technique to identify and classify entities such as names of people, organizations, locations, etc., within a text.
+
+Named Entity Recognition (NER): The POS-tagged words are then fed into the NER process using nltk.ne_chunk.
+
+Extraction of Named Entities: The identified entities and their corresponding types are extracted and stored in a list.
